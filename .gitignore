@@ -14,3 +14,5 @@ nb-configuration.xml
 *.jar
 *.war
 *.ear
+/week7/nbproject/private/
+/JavaApplication3/nbproject/private/
