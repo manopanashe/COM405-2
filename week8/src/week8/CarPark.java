@@ -111,4 +111,8 @@ public class CarPark {
         this.Spaces = Spaces;
     }
 
+    boolean addUser(String ford) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
 }
