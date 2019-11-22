@@ -16,7 +16,7 @@ public class FrontlineStaff extends Employee
      super(nameln, Payln, NumofHoursln, HolidayEntiltementln);   
 
     } 
-  
+
   
   @Override
     public double getyearlySalary()

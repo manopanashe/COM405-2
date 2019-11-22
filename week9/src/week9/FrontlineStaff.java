@@ -3,28 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication3;
+package week9;
 
 /**
  *
  * @author 4manop68
  */
-public class Manager extends FrontlineStaff {
+public class FrontlineStaff extends Employee {
 
-    private int Bonus;
-
-    public Manager(String nameln, int Payln, int NumofHoursln, int HolidayEntiltementln, int Bonusln) {
+    public FrontlineStaff(String nameln, int Payln, int NumofHoursln, int HolidayEntiltementln) {
         super(nameln, Payln, NumofHoursln, HolidayEntiltementln);
-        Bonus = Bonusln;
     }
+
+   
 
     @Override
     public double getyearlySalary() {
-        double extra = (Bonus * Pay) / 100;
-        return Pay + extra;
-    }
-
-  
-    }
-
-
+        return (Pay*NumofHours)*52;
+    
+}
+}
